@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
     background-size: 600% 600%;
     animation: gradientBg 15s ease infinite;
+    overflow: hidden;
   }
   
   @keyframes gradientBg {
@@ -36,13 +37,15 @@ padding: 20px;
 
 nav {
     background-color: #333;
-    height: 50px;
+    height: auto;
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
     padding: 0;
     border-radius: 10px; /* Add border-radius property */
+    font-size: xx-large;
   }
-  
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,6 +55,7 @@ ul {
 
 li {
     float: left;
+    display: block;
 }
 
 a {

@@ -1,8 +1,13 @@
 .custom-div {
-    width: 300px;
-    height: 150px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: baseline;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     border-radius: 10px; /* Rounded corners */
     padding: 20px;
     color: white;
+    font-size: x-large;
   }
