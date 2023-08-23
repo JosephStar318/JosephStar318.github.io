@@ -23,3 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     xhr.send();
 });
+
+function redirectToPage(url) {
+    location.href = "https://" + url;
+  }

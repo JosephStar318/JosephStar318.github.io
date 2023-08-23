@@ -1,0 +1,12 @@
+.grid-div {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px; /* Gap between grid items */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
+    font-size: x-large;
+  }
+  
+
